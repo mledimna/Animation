@@ -56,7 +56,6 @@ void Animation::worker(void) {
 		break;
 
 	case ANIMATION_STOPPED:
-		this->pause();
 		this->reset();
 		break;
 
